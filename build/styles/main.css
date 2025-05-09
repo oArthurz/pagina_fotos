@@ -1,0 +1,547 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bebasneue/v14/JTUSjIg69CK48gW7PXooxW4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cal Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/calsans/v1/fdN99sWUv3gWqXxqqSBb.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PT Serif';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ptserif/v18/EJRTQgYoZZY2vCFuvAFTzro.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PT Serif';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ptserif/v18/EJRQQgYoZZY2vCFuvAFT9gaQVy4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ptserif/v18/EJRVQgYoZZY2vCFuvDFR.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/ptserif/v18/EJRSQgYoZZY2vCFuvAnt65qV.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHRiA8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 200;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHQiA8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLt_QiA8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLoHQiA8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLrPQiA8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLl_XiA8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLmbXiA8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 800;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLgHXiA8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOKCnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmOClHrs6ljXfMMLijXiA8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbGmT.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 200;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEbWmT.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuaabWmT.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbWmT.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWub2bWmT.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYaammT.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuYjammT.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZEammT.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v47/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWuZtammT.ttf) format('truetype');
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  background-color: #ecf0f1;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  body header {
+    width: 200%;
+  }
+  body header .camHeader h1 {
+    font-size: 3em;
+  }
+  body header a {
+    font-size: 1.3em;
+  }
+  body #informacoes {
+    max-width: 1800px;
+    width: 100%;
+  }
+  body #informacoes .imagensConceito h2 {
+    width: 200%;
+  }
+  body #informacoes .imagensConceito p {
+    margin-top: 60px;
+    font-size: 40px;
+    width: 200%;
+  }
+  body #informacoes .imagensConceito a {
+    font-size: 35px;
+  }
+  body .titleMain {
+    margin-left: 90px;
+  }
+  body #galeria p {
+    margin-top: 60px;
+    font-size: 40px;
+    width: 100%;
+    margin-right: 520px;
+  }
+  body #galeria a {
+    font-size: 35px;
+  }
+  body #galeria .img4 {
+    width: 300vh;
+  }
+  body .img3 {
+    display: 400vh;
+  }
+  body #section3 {
+    width: 200%;
+  }
+  body #section3 .container form {
+    font-size: 1em;
+  }
+  body #section3 .container form h2 {
+    font-size: 60px;
+  }
+  body #section3 .container form p {
+    font-size: 30px;
+  }
+  body #section3 .container .mapaSite {
+    display: none;
+  }
+  body #section3 .container .sigaNos {
+    display: flex;
+  }
+}
+@media (max-width: 767px) {
+  body .container {
+    width: 90%;
+  }
+  body html {
+    overflow-x: hidden;
+  }
+  body header {
+    width: 400%;
+    margin-right: 110px;
+    margin: 20px 0;
+  }
+  body header .container {
+    width: 100%;
+    margin: 30px 0 0 0 ;
+  }
+  body header .container li {
+    margin-right: 5px;
+  }
+  body header .container h1 {
+    margin: 0;
+    margin-right: 15px;
+    font-size: 50px;
+  }
+  body header .container .camHeader {
+    margin-bottom: 0px;
+  }
+  body header .container a {
+    font-size: 40px;
+  }
+  body .titleMain {
+    width: 400%;
+  }
+  body .titleMain h1 {
+    font-size: 50px;
+  }
+  body #informacoes {
+    width: 350%;
+  }
+  body #informacoes .img1 {
+    width: 170vw;
+    height: 190vh;
+    margin-left: 150px;
+  }
+  body #informacoes .imagensConceito p {
+    margin-top: 70px;
+    font-size: 2.9em;
+  }
+  body #informacoes .imagensConceito h2 {
+    font-size: 3em;
+  }
+  body #informacoes .imagensConceito a {
+    font-size: 40px;
+  }
+  body #informacoes .imagensConceito a img {
+    width: 45px;
+  }
+  body #galeria .container {
+    width: 270%;
+  }
+  body #galeria .img2 {
+    width: 190vw;
+    height: 200vh;
+  }
+  body #galeria .imagensConceito {
+    margin-left: 40px;
+  }
+  body #galeria .imagensConceito h2 {
+    font-size: 50px;
+    margin: 0;
+    margin-right: 100px;
+  }
+  body #galeria .imagensConceito a {
+    font-size: 40px;
+    margin-top: 0;
+  }
+  body #galeria .imagensConceito a img {
+    width: 45px;
+  }
+  body #galeria .imagensConceito p {
+    margin-top: 50px;
+    font-size: 2.9em;
+  }
+  body #galeria .imagensConceito .img4 {
+    width: 300vh;
+  }
+  body .img3 {
+    display: none;
+  }
+  body #section3 {
+    width: 400%;
+  }
+  body #section3 .container form {
+    font-size: 1em;
+  }
+  body #section3 .container form h2 {
+    font-size: 60px;
+  }
+  body #section3 .container form p {
+    font-size: 30px;
+  }
+  body #section3 .container .mapaSite {
+    display: none;
+  }
+  body #section3 .container .sigaNos {
+    display: flex;
+  }
+}
+body header {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+  background-color: #ecf0f1;
+}
+body header .camHeader {
+  display: flex;
+}
+body header .camHeader img {
+  width: 40px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+body header .container {
+  max-width: 1300vw;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+body header .container h1 {
+  font-family: "PT Serif", serif;
+}
+body header .container li {
+  list-style: none;
+  font-size: 25px;
+  display: inline;
+  margin-right: 40px;
+}
+body header .container li a {
+  text-decoration: none;
+  color: #000;
+  font-family: "PT Serif", serif;
+  font-weight: lighter;
+}
+body header .container li button {
+  background-color: transparent;
+  border: none;
+  transition: all ease 0.3s;
+}
+body header .container li button:hover {
+  transform: scale(1.05);
+}
+body .titleMain h1 {
+  font-size: 400px;
+  font-family: "Cal Sans", sans-serif;
+  text-align: center;
+}
+body section {
+  padding: 50px;
+  display: flex;
+}
+body section img {
+  max-width: 700px;
+  width: 100%;
+  margin-right: 40px;
+}
+body section .container {
+  max-width: 1200px;
+  width: 100%;
+}
+body section .imagensConceito h2 {
+  font-family: "Cal Sans", sans-serif;
+  font-size: 45px;
+  opacity: 0.5;
+}
+body section .imagensConceito p {
+  font-size: 1.2em;
+  font-family: "PT Serif", serif;
+  margin-top: 900px;
+}
+body section .imagensConceito a {
+  color: #000;
+  font-family: "PT Serif", serif;
+  font-weight: lighter;
+}
+body section .imagensConceito a img {
+  width: 30px;
+  margin: 0 10px 0 0;
+}
+body .section2 {
+  display: flex;
+  max-width: 1448px;
+  width: 100%;
+}
+body .section2 .imagensConceito h2 {
+  opacity: 0.9;
+  margin-right: 300px;
+  margin-top: 90px;
+  text-align: center;
+}
+body .section2 .imagensConceito p {
+  margin-top: 300px;
+  margin-right: 50px;
+}
+body .section2 .imagensConceito .img4 {
+  width: 500px;
+  margin-top: 150px;
+}
+body .img3 {
+  margin-bottom: 20px;
+}
+body .img3 img {
+  width: 500px;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+body #section3 {
+  display: block;
+  background-color: #000;
+  margin-top: 50px;
+}
+body #section3 .container {
+  padding: 40px 0;
+  display: flex;
+  max-width: 1300px;
+  width: 100%;
+}
+body #section3 form {
+  margin-right: 100px;
+}
+body #section3 form h2 {
+  font-family: "Cal Sans", sans-serif;
+  color: #ffff;
+  opacity: 0.4;
+  font-size: 40px;
+}
+body #section3 form p {
+  font-family: "PT Serif", serif;
+  color: #ffff;
+  opacity: 0.7;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+body #section3 form input,
+body #section3 form button {
+  padding: 20px;
+  width: 60%;
+  border-radius: 2px;
+  margin-right: 12px;
+  font-family: "PT Serif", serif;
+  margin-bottom: 20px;
+}
+body #section3 form button {
+  width: 60%;
+  border: 2px solid white;
+  background-color: #000;
+  color: #ffff;
+  transition: all ease 0.6s;
+}
+body #section3 form button:hover {
+  color: #000;
+  background-color: white;
+}
+body #section3 .mapaSite h2 {
+  color: #ffff;
+  opacity: 0.4;
+}
+body #section3 .mapaSite a {
+  display: block;
+  color: #ffff;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+}
+body #section3 .sigaNos {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+body #section3 .sigaNos li {
+  list-style: none;
+  display: inline;
+}
+body #section3 .sigaNos li img {
+  width: 50px;
+}
+body #section3 .sigaNos button {
+  background-color: transparent;
+  border: none;
+  transition: all ease 0.3s;
+}
+body #section3 .sigaNos button:hover {
+  transform: scale(1.1);
+}
